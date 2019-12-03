@@ -1,0 +1,16 @@
+decimal=0
+
+
+binary=int(input("enter your binary number : "))
+
+lenght=len(str(binary))
+
+
+for i in range(lenght):
+
+	decimal+=int(str(binary)[i])*(2**(lenght-1-i))
+
+
+print("the decimal number is : ",decimal)
+
+
